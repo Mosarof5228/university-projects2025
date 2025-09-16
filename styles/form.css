@@ -1,0 +1,86 @@
+
+.my-form {
+  text-align: center;
+  width: 320px;     
+  margin: 20px auto;
+  border: 1px solid #eee;           
+  padding: 30px 15px;
+  border-radius: 12px;               
+
+  box-shadow: 
+    0 4px 6px rgba(228, 13, 13, 0.8),    
+    0 8px 20px rgba(255, 4, 4, 0.5);  
+   
+}
+
+
+
+
+.form-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.form-input input {
+  display: block;     
+  width: 100%;          
+  padding: 10px;
+  margin: 10px 0;      
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+.form-input input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin: 0 5px;
+  text-align:left;
+}
+.gender-section{
+    text-align:left;
+}
+
+.name-input{
+    display: flex;
+    gap:5px;
+}
+.email-input-container{
+    
+  position: relative;
+  
+}
+
+.email-input-container i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888; 
+ 
+}
+
+.email-input-container input {
+  width: 100%;
+  padding-left: 35px; 
+  height: 40px;
+ 
+}
+
+.password-input-container{
+    position:relative;
+}
+.password-input-container i{
+position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888; 
+}
+.password-input-container input{
+    width:100%;
+    padding-left:35px;
+    height:40px;
+}
