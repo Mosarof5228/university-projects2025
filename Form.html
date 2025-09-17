@@ -6,9 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="/styles/form.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles/myStyle.css">
+
 
 </head>
 <body>
+      <div style="text-align: center;">
+        <button class="nav-button"><a class="back-button" href="/firstProject.html">Back To Home</a></button>
+      </div>
     <form class="my-form">
   <h3 class="form-title">Please Fill up this form to take service</h3>
   <div class="form-input">
@@ -45,6 +50,29 @@
     </label>
    </div>
   </div>
+  <div class="selectInput">
+   <label for="country">Select a Country:</label>
+   <select class="select-option" name="country" id="country">
+      <option value="bangladesh">Bangladesh</option>
+      <option value="india">India</option>
+      <option value="usa">United States</option>
+      <option value="uk">United Kingdom</option>
+      <option value="canada">Canada</option>
+      <option value="australia">Australia</option>
+   </select>
+</div>
+
+<div class="checkDiv">
+ <div >
+   <input type="checkbox" name="condition" id="">
+  <label for="condition">I Agree With terms and conditions</label>
+ </div>
+ <div style="margin-top:5px">
+   <input type="checkbox" name="condition" id="">
+  <label for="condition">I Agree With terms and conditions</label>
+ </div>
+</div>
+ <button class="btnSubmit" type="submit">Registration</button>
 </form>
 
 </body>

@@ -84,3 +84,32 @@ position: absolute;
     padding-left:35px;
     height:40px;
 }
+
+.back-button{
+  text-decoration: none;
+  color: white;
+}
+.selectInput{
+  width:100%;
+ text-align: left;
+ margin-top: 10px;
+ 
+}
+.select-option{
+  width:60%;
+}
+.checkDiv{
+ text-align: left;
+ margin-top: 5px;
+ gap: 10px;
+}
+.btnSubmit{
+  margin-top:20px;
+  width:100%;
+  background-color:#FD6E0A ;
+  border:none;
+  padding:5px 10px;
+  color:white;
+  font-size: 15px;
+  border-radius: 5px;
+}
